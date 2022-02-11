@@ -22,7 +22,8 @@ npm i -D @types/node
 ### emotion 설치
 
 ```bash
-
+npm i @emotion/react @emotion/styled
+npm i -D @emotion/babel-plugin emotion-reset
 ```
 
 <br><br>
