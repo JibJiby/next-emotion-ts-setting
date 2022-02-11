@@ -1,4 +1,5 @@
 import { css } from '@emotion/react'
+import { contentStyle } from './styles'
 
 interface Props {
     children: React.ReactNode
@@ -16,14 +17,7 @@ const AppLayout = ({ children }: Props) => {
             >
                 헤더
             </header>
-            <div
-                css={css`
-                    height: 100%;
-                    background-color: dodgerblue;
-                `}
-            >
-                {children}
-            </div>
+            <div css={contentStyle}>{children}</div>
         </>
     )
 }
