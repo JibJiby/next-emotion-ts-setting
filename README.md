@@ -54,3 +54,9 @@ npm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
 ```
 
 <br><br>
+
+### 테스트 추가
+
+```bash
+npm i -D @testing-library/jest-dom @testing-library/react @types/jest @types/react-dom jest
+```
