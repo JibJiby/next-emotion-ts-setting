@@ -23,7 +23,7 @@ npm i -D @types/node
 
 ```bash
 npm i @emotion/react @emotion/styled
-npm i -D @emotion/babel-plugin emotion-reset
+npm i -D @emotion/babel-plugin emotion-normalize
 ```
 
 <br><br>

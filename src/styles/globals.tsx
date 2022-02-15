@@ -1,10 +1,10 @@
 import { css, Global } from '@emotion/react'
-import emotionReset from 'emotion-reset'
+import emotionNormalize from 'emotion-normalize'
 
 export const globalStyles = (
     <Global
         styles={css`
-            ${emotionReset}
+            ${emotionNormalize}
             *, *::after, *::before {
                 box-sizing: border-box;
                 -moz-osx-font-smoothing: grayscale;
