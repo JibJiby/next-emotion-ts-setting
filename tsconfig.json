@@ -25,7 +25,6 @@
       "@components/*": ["src/components/*"],
       "@pages/*": ["src/pages/*"],
       "@styles/*": ["src/styles/*"],
-      "@public/*": ["src/public/*"]
     }
   },
   "include": [
